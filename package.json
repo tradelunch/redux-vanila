@@ -1,0 +1,24 @@
+{
+    "name": "redux-vanila",
+    "version": "1.0.0",
+    "description": "Create a redux with vanila javascript",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tradelunch/redux-vanila.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tradelunch/redux-vanila/issues"
+    },
+    "homepage": "https://github.com/tradelunch/redux-vanila#readme",
+    "dependencies": {
+        "uuid": "^9.0.0"
+    }
+}

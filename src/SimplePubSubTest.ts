@@ -22,19 +22,19 @@ messageQ.subscribe(resizeSubscriber);
 clickEmitter.publish({
     topic: "click",
     data: {
-        target: "ABC",
+        target: "Div",
     },
 });
 resizeEmitter.publish({
     topic: "resize",
     data: {
-        target: "GGG",
+        target: "Button",
     },
 });
 
 clickEmitter.publish({
     topic: "click",
     data: {
-        target: "1234567890",
+        target: "Main",
     },
 });
